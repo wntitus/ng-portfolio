@@ -1,6 +1,6 @@
 <section>
-  <div *ngFor="let project of projects">
-    <h3 >{{project.name}}</h3>
-    <p>{{project.description}}</p>
+  <div *ngFor="let project of projects; let i = index">
+    <h3 [ngClass] = "{'leftHeadline': i == 0, 'rightHeadline': i == 1}">{{project.name}}</h3>
+    <p [ngClass] = "{'leftDesc': i == 0, 'rightDesc': i == 1}">{{project.description}}</p>
   </div>
 </section>

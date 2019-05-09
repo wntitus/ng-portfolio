@@ -15,8 +15,7 @@ export class ProjectsBoxComponent implements OnInit {
                     using Angular and ended up really liking it. It's a full-stack MEAN application
                     to track study resources and notes. I implemented authorization using bcrypt and
                     JSON web tokens. It communicates with a REST Node backend to create and check users
-                    from a cloud-hosted Mongo database.`,
-      position: 'left'
+                    from a cloud-hosted Mongo database.`
     }, {
       name: 'DevDen',
       repoLink: 'https://github.com/wntitus/DevDen',
@@ -24,8 +23,7 @@ export class ProjectsBoxComponent implements OnInit {
                     It's a full-stack app utilizing a MySQL database with Passport authentication
                     that serves as a hub for developers to create projects and find collaborators for
                     their projects. We also managed to implement a live chat using websockets, which
-                    was a lot of fun.`,
-      position: 'right'
+                    was a lot of fun.`
     }
   ];
 
