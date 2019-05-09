@@ -41,3 +41,13 @@ p {
   left: 4rem;
   margin-right: 3rem;
 }
+
+#outLink {
+  cursor: pointer;
+  transition: color .5s;
+}
+
+#outLink:hover {
+  color: #c3c8c9;
+  transition: color .5s;
+}
