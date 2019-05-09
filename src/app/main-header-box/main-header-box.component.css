@@ -2,18 +2,7 @@ body {
   font-size: 16px;
 }
 
-nav {
-  background-color: rgb(191, 202, 210);
-  height: 5rem;
-  z-index: 3;
-}
 
-h1 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 2.8125rem;
-  color: #ecf0f1;
-}
 
 h2 {
   font-family: "league-gothic",sans-serif;
@@ -23,20 +12,6 @@ h3 {
   font-family: "league-gothic", sans-serif;
 }
 
-.headerBG {
-  width: 100%;
-  /* position: relative;
-  top: -100px; */
-  z-index: -1;
-  display: block;
-}
-
-.mainName {
-  float: left;
-  margin-top: 0.9375rem;
-  margin-left: 0.9375rem;
-  text-shadow: #001133 1px 1px 5.5px;
-}
 
 .headText {
   color: #ecf0f1;
@@ -45,6 +20,15 @@ h3 {
   position: absolute;
   top: 15.625rem;
   left: 3.125rem;
+}
+
+.headUpperName {
+  color: #ecf0f1;
+  text-shadow: #001133 1px 5px 22.5px;
+  position: absolute;
+  top: 3rem;
+  left: 3.125rem;
+  font-size: 4.125rem;
 }
 
 .headLowerProj {
