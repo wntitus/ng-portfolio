@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from '../shared/project.model';
 
 @Component({
   selector: 'app-projects-box',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects-box.component.css']
 })
 export class ProjectsBoxComponent implements OnInit {
-  projects = [
+  projects: Array<Project> = [
     {
       name: 'StudyHive',
       repoLink: 'https://github.com/wntitus/studyhive',
